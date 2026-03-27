@@ -6,5 +6,9 @@ const router = createBrowserRouter([
     path: '/',
     element: <Home />,
   },
+  {
+    path: '/contact',
+    element: <div>Meu contato: alyssonwa</div>,
+  },
 ]);
 export default router;
